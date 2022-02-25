@@ -1,0 +1,41 @@
+name: example
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_iconfont_builder:
+    path: ../
+
+flutter_iconfont_builder:
+  # dart-file-path: lib/g
+  # html-file-path: lib/g
+  # ttf-file-path: fonts
+  merge-dart-file: 'icon_font'
+  fonts:
+    - font-family: "iconfont"
+      css: "https://at.alicdn.com/t/font_2895614_dys0qdqvtrn.css"
+    - font-family: "iconfontcolor"
+      css: "https://at.alicdn.com/t/font_2897510_qisvv69scrp.css"
+
+flutter:
+  uses-material-design: true
+  fonts: 
+    - family: iconfont
+      fonts: 
+        - asset: assets/fonts/iconfont.ttf
+        - asset: assets/fonts/iconfontcolor.ttf
+
+    - family: iconfontcolor
+      fonts: 
+        - asset: assets/fonts/iconfontcolor.ttf
