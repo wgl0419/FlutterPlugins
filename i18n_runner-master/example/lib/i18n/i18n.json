@@ -1,0 +1,24 @@
+[
+  {
+    "id": 200000,
+    "key": "desc",
+    "zhCN": "我是描述",
+    "zhTW": "我是描述",
+    "en": "I'm describing",
+    "ko": "묘사",
+    "ja": "説明します",
+    "fr": "Je suis la description.",
+    "es": "Estoy describiendo"
+  },
+  {
+    "id": 200001,
+    "key": "desc2",
+    "zhCN": "\"我是描述2$",
+    "zhTW": "\"我是描述2",
+    "en": "I'm describing",
+    "ko": "\"묘사",
+    "ja": "\"説明します",
+    "fr": "\"Je suis la description.",
+    "es": "\"Estoy describiendo"
+  }
+]

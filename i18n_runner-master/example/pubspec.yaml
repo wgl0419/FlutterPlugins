@@ -1,0 +1,39 @@
+name: example
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  i18n_runner:
+    path: ../
+
+flutter:
+
+
+i18n_runner:
+  files:
+    json: lib/i18n/i18n.json
+    i18n_keys: lib/generated/i18n_keys.dart
+    translations: lib/i18n/translations/
+  locale:
+    benchmark: zhCN
+    supports:
+      zhCN: zh_CN
+      zhTW: zh_TW
+      en: en_US
+      ko: ko_KR
+      ja: ja_JP
+#      fr: fr
+#      es: es
