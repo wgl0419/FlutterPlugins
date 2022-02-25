@@ -1,0 +1,124 @@
+name: flutter_base_kit
+description: A new Flutter package project.
+version: 1.2.2
+homepage: http://gitlab.tqxd.com/flutter/plugins/flutter_base_kit
+
+publish_to: https://pub.youzi.dev
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # http 网络请求库
+  # https://pub.flutter-io.cn/packages/dio
+  dio: ^4.0.1
+  # 获取对应平台的沙盒目录
+  # https://pub.flutter-io.cn/packages/path_provider
+  path_provider: ^2.0.6
+  # Flutter 常用工具类
+  # https://pub.flutter-io.cn/packages/flustars
+  flustars: ^2.0.1
+  # 检测网络状态
+  # https://pub.dev/packages/connectivity_plus
+  connectivity_plus: ^2.0.2
+  # 获取App包名、版本号信息
+  # https://pub.dev/packages/package_info_plus
+  package_info_plus: ^1.3.0
+  # 获取设备信息
+  # https://pub.dev/packages/device_info_plus
+  device_info_plus: ^3.1.1
+  # 状态、路由、依赖管理
+  # https://pub.flutter-io.cn/packages/get
+  get: ^4.3.8
+  # 日志库
+  # https://pub.flutter-io.cn/packages/loggy
+  loggy: ^2.0.1
+  flutter_loggy: ^2.0.0
+  # Sentry Flutter 异常收集
+  # https://pub.dev/packages/sentry_flutter
+  sentry_flutter: ^6.1.0
+  # WebSocket 库
+  # https://pub.dev/packages/web_socket_channel
+  web_socket_channel: ^2.1.0
+  # Toast & Loading
+  # https://github.com/MMMzq/bot_toast
+  bot_toast: ^4.0.1
+  # dart extensions
+  # https://github.com/leisim/dartx
+  dartx: ^0.8.0
+  # 屏幕适配
+  # https://github.com/OpenFlutter/flutter_screenutil
+  flutter_screenutil: ^5.0.0+2
+  # 解析堆栈信息
+  # https://pub.flutter-io.cn/packages/stack_trace
+  stack_trace: ^1.10.0
+  # 获取对应平台的UserAgent
+  # https://pub.flutter-io.cn/packages/fk_user_agent
+  fk_user_agent: ^2.0.1
+  # 类深比较库
+  # https://pub.dev/packages/equatable
+  equatable: ^2.0.3
+  # 安全KV存储
+  # https://pub.flutter-io.cn/packages/flutter_secure_storage
+  flutter_secure_storage: ^4.2.1
+  # 事件总线
+  # https://pub.flutter-io.cn/packages/rx_event_bus
+  rx_event_bus: ^2.0.1
+  # https://pub.flutter-io.cn/packages/uuid
+  uuid: ^3.0.5
+  # 打开、检测制定App或其他URLScheme
+  # https://pub.flutter-io.cn/packages/url_launcher
+  url_launcher: ^6.0.12
+  # 网络图片缓存
+  # https://pub.flutter-io.cn/packages/cached_network_image
+  cached_network_image: ^3.1.0
+  # App权限检查
+  # https://pub.flutter-io.cn/packages/permission_handler
+  permission_handler: ^8.2.6
+  # 图片扩展
+  # https://pub.flutter-io.cn/packages/extended_image
+  extended_image: ^5.1.3
+  # 图片浏览器
+  # https://pub.flutter-io.cn/packages/photo_view
+  photo_view: ^0.13.0
+  # 照相、拍照、选取图片
+  # https://pub.flutter-io.cn/packages/fk_photos
+  fk_photos: ^2.1.1
+  # 接收URLScheme参数
+  # https://pub.flutter-io.cn/packages/uni_links
+  uni_links: ^0.5.1
+  # 加解密
+  # https://pub.flutter-io.cn/packages/encrypt
+  encrypt: ^5.0.1
+  # https://pub.flutter-io.cn/packages/convert
+  convert: ^3.0.1
+  # dart decimal
+  # https://pub.flutter-io.cn/packages/decimal
+  decimal: ^1.3.0
+  # flutter 动画
+  # https://pub.flutter-io.cn/packages/simple_animations
+  simple_animations: ^4.0.1
+  # 加密库
+  crypto: ^3.0.1
+  pointycastle: ^3.3.5
+  # dart 常用工具
+  # https://pub.flutter-io.cn/packages/common_utils
+  common_utils: ^2.0.2
+  # kv 数据存储
+  # https://pub.flutter-io.cn/packages/hive
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  # 重试
+  # https://pub.flutter-io.cn/packages/retry
+  retry: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0

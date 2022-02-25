@@ -1,0 +1,43 @@
+class Dimens {
+  static const double fontSp10 = 10.0;
+  static const double fontSp12 = 12.0;
+  static const double fontSp14 = 14.0;
+  static const double fontSp15 = 15.0;
+  static const double fontSp16 = 16.0;
+  static const double fontSp18 = 18.0;
+  static const double fontSp20 = 20.0;
+  static const double fontSp22 = 22.0;
+  static const double fontSp24 = 24.0;
+  static const double fontSp26 = 26.0;
+  static const double fontSp28 = 28.0;
+  static const double fontSp30 = 30.0;
+  static const double fontSp32 = 32.0;
+  static const double fontSp34 = 34.0;
+  static const double fontSp36 = 36.0;
+  static const double fontSp38 = 38.0;
+  static const double fontSp40 = 40.0;
+
+  static const double gapDp0 = 0;
+  static const double gapDp1 = 1;
+  static const double gapDp3 = 3;
+  static const double gapDp4 = 4;
+  static const double gapDp5 = 5;
+  static const double gapDp8 = 8;
+  static const double gapDp10 = 10;
+  static const double gapDp12 = 12;
+  static const double gapDp13 = 13;
+  static const double gapDp14 = 14;
+  static const double gapDp15 = 15;
+  static const double gapDp16 = 16;
+  static const double gapDp18 = 18;
+  static const double gapDp20 = 20;
+  static const double gapDp24 = 24;
+  static const double gapDp26 = 26;
+  static const double gapDp28 = 28;
+  static const double gapDp30 = 30;
+  static const double gapDp32 = 32;
+  static const double gapDp34 = 34;
+  static const double gapDp42 = 42;
+  static const double gapDp47 = 47;
+  static const double gapDp50 = 50;
+}
