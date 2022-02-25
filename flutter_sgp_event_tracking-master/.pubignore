@@ -1,0 +1,10 @@
+example
+screenshots
+docs
+/**/build
+.secret
+.secrets
+.vscode
+.idea
+.gitignore
+.pubignore

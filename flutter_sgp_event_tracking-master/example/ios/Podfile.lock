@@ -1,0 +1,59 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - Reachability
+  - device_info_plus (0.0.1):
+    - Flutter
+  - fk_user_agent (2.0.0):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_device_udid (1.0.0):
+    - Flutter
+  - flutter_sgp_event_tracking (0.0.1):
+    - Flutter
+  - package_info_plus (0.4.5):
+    - Flutter
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - fk_user_agent (from `.symlinks/plugins/fk_user_agent/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_device_udid (from `.symlinks/plugins/flutter_device_udid/ios`)
+  - flutter_sgp_event_tracking (from `.symlinks/plugins/flutter_sgp_event_tracking/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  fk_user_agent:
+    :path: ".symlinks/plugins/fk_user_agent/ios"
+  Flutter:
+    :path: Flutter
+  flutter_device_udid:
+    :path: ".symlinks/plugins/flutter_device_udid/ios"
+  flutter_sgp_event_tracking:
+    :path: ".symlinks/plugins/flutter_sgp_event_tracking/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: 5f0eb61093bec56935f21a1699dd2758bc895587
+  device_info_plus: e5c5da33f982a436e103237c0c85f9031142abed
+  fk_user_agent: 1f47ec39291e8372b1d692b50084b0d54103c545
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_device_udid: 0ecd3bcbbff51809448506e4a8b0e43d53de1f78
+  flutter_sgp_event_tracking: bf1c695c0f15a29dafae15e9dd4b363e04c3834a
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1
