@@ -1,0 +1,36 @@
+name: flutter_baidu_translator_runner
+description: A new Flutter package project.
+version: 0.0.3
+homepage: http://gitlab.tqxd.com/flutter/plugins/flutter_baidu_translator_runner
+
+publish_to: https://pub.youzi.dev/
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  yaml: ^3.1.0
+  cli_util: ^0.3.5
+  http: ^0.13.4
+  recase: ^4.0.0
+  yaml_edit: ^2.0.1
+  path: ^1.8.0
+  crypto: ^3.0.1
+  convert: ^3.0.1
+  dartx: ^0.8.0
+  retry: ^3.1.0
+
+flutter_baidu_translator_runner:
+  from_path: ./i18n/data.json
+  dest_path: ./i18n/datax.json
+  config:
+    primary-key: key      # 主键名称, 如设置了 auto-primary-key, 此值必须
+    auto-primary-key: 1   # -1 不做任何处理, 0 当值没有时, 并且langs存在en字段, 则自动生成， 1 一律使用langs的en字段进行生成
+    case-type: 1          # 1. 驼峰 2. 下划线
+    base-key: zhCN        # 基于 xx 进行翻译, 必须
+    regen: true           # 如果为true, 则对应语言是否存在值, 都会重新翻译赋值, 非必须
+    langs:                # 要生成的语言, 支持的语言请查看Readme, 最少设置1个
+      kor: 
+      jp: jp
+      cht:
+      en: en
