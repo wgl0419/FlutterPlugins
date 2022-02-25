@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:ignore="MissingDefaultResource">
+
+    <com.turui.android.cameraview.CameraView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="false"
+        app:tr_alignmentColor="#FF00FF00"
+        app:tr_alignmentWidth="3dp"
+        app:tr_autoFocus="true"
+        app:tr_cameraAspectRatio="16:9"
+        app:tr_cornerColor="#1664D8"
+        app:tr_cornerLength="25dp"
+        app:tr_cornerSize="4dp"
+        app:tr_facing="back"
+        app:tr_flash="off"
+        app:tr_maskColor="#AAAAAAAA"
+        app:tr_maximumPreviewWidth="4000"
+        app:tr_maximumWidth="4000"
+        app:tr_rectCenterXPercent="50"
+        app:tr_rectCenterYPercent="45"
+        app:tr_rectLandscapeHeightPercentByWidth="63"
+        app:tr_rectLandscapeWidthPercent="65"
+        app:tr_rectPortraitHeightPercentByWidth="63"
+        app:tr_rectPortraitWidthPercent="85"
+        app:tr_showScanLine="false"
+        app:tr_scanLineColor="#EE55FF55"/>
+
+    <View
+        android:id="@+id/shutter_effect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/shutter"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/ic_green_background"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/screen_camera" />
+
+    <ImageView
+        android:id="@+id/turn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="false"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_gray_background"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/capture_close"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_gravity="start"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_gray_background"
+        android:clickable="true"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/icon_chongpai" />
+
+    <ImageView
+        android:id="@+id/capture_mode_change"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_gray_background"
+        android:clickable="true"
+        android:padding="5dp"
+        android:src="@drawable/mode_change"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/capture_flashlight"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="false"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_gray_background"
+        android:clickable="true"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/screen_highlight_close" />
+
+</RelativeLayout>

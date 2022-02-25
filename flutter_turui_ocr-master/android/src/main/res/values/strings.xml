@@ -1,0 +1,5 @@
+<resources>
+    <string name="recovery_menu_debug">崩溃日志</string>
+    <string name="recovery_menu_save">保存日志</string>
+
+</resources>

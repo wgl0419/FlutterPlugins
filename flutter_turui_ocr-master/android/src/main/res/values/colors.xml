@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="recovery_colorPrimary">#3F51B5</color>
+    <color name="recovery_colorPrimaryDark">#3F51B5</color>
+    <color name="recovery_colorAccent">#788AD7</color>
+    <color name="recovery_background">#4C5360</color>
+    <color name="recovery_textColor">#FFFFFF</color>
+    <color name="recovery_textColor_sub">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="statusFontColor">#FFFFFF</color>
+
+</resources>
