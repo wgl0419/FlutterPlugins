@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="please_move_face">"Veuillez déplacer le visage dans la boîte"</string>
+    <string name="keep_your_facial">Gardez vos traits clairs.</string>
+    <string name="face_recognition">Reconnaissance faciale</string>
+    <string name="face_login">Connexion faciale</string>
+    <string name="no_face_detected">Visage non détecté</string>
+    <string name="recognition_failure">"Échec de l'identification"</string>
+    <string name="cannot_recognize_face">"Votre visage n'est pas reconnu ou une exception s'est produite"</string>
+    <string name="re_identify">"Re - identification"</string>
+    <string name="cancel">Annulation</string>
+    <string name="device_cannot_support">"L'appareil actuel ne supporte pas la reconnaissance faciale"</string>
+    <string name="failed_to_initialize_face">"Échec de l'initialisation de la fonction faciale"</string>
+    <string name="processing">En cours de traitement...</string>
+    <string name="carry_out">Terminé.</string>
+    <string name="turn_left">Tournez à gauche.</string>
+    <string name="turn_right">Tournez à droite.</string>
+    <string name="nod_up_and_down">Hoche la tête.</string>
+    <string name="open_your_mouth">Ouvre la bouche.</string>
+    <string name="wink">"Clin d'œil"</string>
+    <string name="put_id_card">Veuillez placer le document dans la boîte et le Border autour</string>
+    <string name="to_use">OK</string>
+    <string name="click_start">Cliquez sur Démarrer</string>
+    <string name="recognition_state">Statut</string>
+</resources>

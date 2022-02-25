@@ -1,0 +1,81 @@
+group 'exchange.sgp.flutter_aimall_face_recognition'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 16
+        ndk {
+            abiFilters 'armeabi-v7a', 'armeabi'
+        }
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.blankj:utilcodex:1.30.5'
+    implementation 'org.greenrobot:greendao:3.3.0'
+    implementation 'net.zetetic:android-database-sqlcipher:4.4.2@aar'
+    implementation "androidx.sqlite:sqlite:2.1.0"
+
+    compile files('libs/core_release.jar')
+    compile files('libs/face_detector.jar')
+    compile files('libs/face_extractor.jar')
+    compile files('libs/face_liveness.jar')
+    compile files('libs/face_tracker.jar')
+    compile files('libs/face_action.jar')
+}
+
+greendao {
+    schemaVersion 1 //数据库版本号
+    daoPackage 'exchange.sgp.flutter_aimall_face_recognition.db'
+    // 设置DaoMaster、DaoSession、Dao 包名
+    targetGenDir 'src/main/java'//设置DaoMaster、DaoSession、Dao目录,请注意，这里路径用/不要用.
+    generateTests false //设置为true以自动生成单元测试。
+    targetGenDirTests 'src/main/java' //应存储生成的单元测试的基本目录。默认为 src / androidTest / java。
+}

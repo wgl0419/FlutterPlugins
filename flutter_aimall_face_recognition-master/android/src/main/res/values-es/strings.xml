@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="please_move_face">Por favor, mueva la cara a la Caja.</string>
+    <string name="keep_your_facial">Por favor, mantenga sus cinco sentidos claramente visibles</string>
+    <string name="face_recognition">Reconocimiento facial</string>
+    <string name="face_login">Inicio de sesión facial</string>
+    <string name="no_face_detected">Cara no detectada</string>
+    <string name="recognition_failure">Fallo de identificación</string>
+    <string name="cannot_recognize_face">No se reconoce su cara o se produce una anomalía</string>
+    <string name="re_identify">Reconocimiento</string>
+    <string name="cancel">Cancelar</string>
+    <string name="device_cannot_support">Reconocimiento facial no soportado por el dispositivo actual</string>
+    <string name="failed_to_initialize_face">Falló la inicialización de la función facial</string>
+    <string name="processing">En proceso...</string>
+    <string name="carry_out">Complete</string>
+    <string name="turn_left">Gire la cabeza a la izquierda</string>
+    <string name="turn_right">Gire a la derecha</string>
+    <string name="nod_up_and_down">Asiente con la cabeza hacia arriba y hacia abajo</string>
+    <string name="open_your_mouth">Abrir la boca</string>
+    <string name="wink">Guiño</string>
+    <string name="put_id_card">Por favor, ponga el documento en la Caja y marque el borde alrededor.</string>
+    <string name="to_use">OK</string>
+    <string name="click_start">Haga clic en inicio</string>
+    <string name="recognition_state">Estado</string>
+</resources>

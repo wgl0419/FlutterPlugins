@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="please_move_face">請將臉移至框內</string>
+    <string name="keep_your_facial">請保持五官清晰可見</string>
+    <string name="face_recognition">人臉識別</string>
+    <string name="face_login">人臉登入</string>
+    <string name="no_face_detected">未檢測到人臉</string>
+    <string name="recognition_failure">識別失敗</string>
+    <string name="cannot_recognize_face">無法識別您的臉部或出現異常</string>
+    <string name="re_identify">重新識別</string>
+    <string name="cancel">取消</string>
+    <string name="device_cannot_support">當前設備不支持人臉識別</string>
+    <string name="failed_to_initialize_face">人臉功能初始化失敗</string>
+    <string name="processing">處理中…</string>
+    <string name="carry_out">完成</string>
+    <string name="turn_left">向左轉頭</string>
+    <string name="turn_right">向右轉頭</string>
+    <string name="nod_up_and_down">上下點頭</string>
+    <string name="open_your_mouth">張張嘴</string>
+    <string name="wink">眨眨眼</string>
+    <string name="put_id_card">請將證件放入框內，並對其四周邊框</string>
+    <string name="to_use">使用</string>
+    <string name="click_start">點擊開始</string>
+    <string name="recognition_state">狀態</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+
+
+    <string name="please_move_face">Please move your face into the box</string>
+    <string name="keep_your_facial">Please keep your facial features clearly visible</string>
+    <string name="face_recognition">Face recognition</string>
+    <string name="face_login">Face login</string>
+    <string name="no_face_detected">No face detected</string>
+    <string name="recognition_failure">Identification failed</string>
+    <string name="cannot_recognize_face">Unable to recognize your face or abnormal</string>
+    <string name="re_identify">Re identification</string>
+    <string name="cancel">cancel</string>
+    <string name="device_cannot_support">The current device does not support face recognition</string>
+    <string name="failed_to_initialize_face">Face function initialization failed</string>
+    <string name="processing">Processing</string>
+    <string name="carry_out">complete</string>
+    <string name="turn_left">Turn left</string>
+    <string name="turn_right">Turn right</string>
+    <string name="nod_up_and_down">Nod up and down</string>
+    <string name="open_your_mouth">Open your mouth</string>
+    <string name="wink">Wink</string>
+    <string name="put_id_card">Please put the certificate in the frame and mark it around</string>
+    <string name="to_use">OK</string>
+    <string name="click_start">Click start</string>
+    <string name="recognition_state">state</string>
+</resources>

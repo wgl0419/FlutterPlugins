@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="please_move_face">얼굴 을 틀 안 으로 옮 겨 주세요.</string>
+    <string name="keep_your_facial">이목 구비 잘 보이 게 해 주세요.</string>
+    <string name="face_recognition">얼굴 인식</string>
+    <string name="face_login">얼굴 로그 인</string>
+    <string name="no_face_detected">미 검출 얼굴</string>
+    <string name="recognition_failure">식별 실패</string>
+    <string name="cannot_recognize_face">얼굴 에 이상 이 있 거나 인식 할 수 없습니다.</string>
+    <string name="re_identify">재인 식</string>
+    <string name="cancel">취소 하 다.</string>
+    <string name="device_cannot_support">현재 설 비 는 사람의 얼굴 인식 을 지원 하지 않 는 다.</string>
+    <string name="failed_to_initialize_face">얼굴 기능 초기 화 실패</string>
+    <string name="processing">처리 중...</string>
+    <string name="carry_out">완성 하 다.</string>
+    <string name="turn_left">왼쪽으로 돌아서다</string>
+    <string name="turn_right">오른쪽으로 돌아서다</string>
+    <string name="nod_up_and_down">머리 를 끄 덕 이다</string>
+    <string name="open_your_mouth">입 을 벌리다</string>
+    <string name="wink">눈짓</string>
+    <string name="put_id_card">증명 서 를 틀 안에 넣 고 테두리 에 맞추어 주세요.</string>
+    <string name="to_use">OK</string>
+    <string name="click_start">클릭 하여 시작</string>
+    <string name="recognition_state">상태.</string>
+</resources>

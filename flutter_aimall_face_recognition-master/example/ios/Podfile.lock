@@ -1,0 +1,54 @@
+PODS:
+  - AimallFace (1.0.9):
+    - FMDB
+    - JGProgressHUD
+    - Masonry
+    - OpenCV2 (= 3.4.0)
+  - Flutter (1.0.0)
+  - flutter_aimall_face_recognition (1.2.2):
+    - AimallFace (~> 1.0.9)
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JGProgressHUD (2.2)
+  - Masonry (1.1.0)
+  - OpenCV2 (3.4.0)
+  - path_provider (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_aimall_face_recognition (from `.symlinks/plugins/flutter_aimall_face_recognition/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+
+SPEC REPOS:
+  "git@gitlab.tqxd.com:aitd_exchange/aitd_exchange_mobile/native/podspec.git":
+    - AimallFace
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - JGProgressHUD
+    - Masonry
+    - OpenCV2
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_aimall_face_recognition:
+    :path: ".symlinks/plugins/flutter_aimall_face_recognition/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+
+SPEC CHECKSUMS:
+  AimallFace: 1673e26f0d5105d782c658f5e5f3202872b6a074
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_aimall_face_recognition: ca6e21c923c4565bd3f4d58b5e17a38362c37419
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OpenCV2: 71c245174e95f1c6b585a4cefd52e9102199c205
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+
+PODFILE CHECKSUM: 4b6cb91eab6472380db7b3492b67e0b1ccb9282f
+
+COCOAPODS: 1.9.3
